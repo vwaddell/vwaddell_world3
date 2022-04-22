@@ -1,4 +1,5 @@
 class Article < ApplicationRecord
+    #sample
     has_one :category
 
     validates_presence_of :title
